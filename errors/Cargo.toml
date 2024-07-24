@@ -1,0 +1,12 @@
+[package]
+name = "ultralight-errors"
+version = "0.1.5"
+edition = "2021"
+license = "MIT"
+description = "A collection of error types for Ultralight crates."
+homepage = "https://github.com/brunostjohn/ultralight"
+
+[dependencies]
+reqwest = { version = "0.11.22", features = ["blocking"] }
+thiserror = "1.0.63"
+sevenz-rust = "0.5.3"
